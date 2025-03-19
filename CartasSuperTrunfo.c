@@ -36,7 +36,7 @@ int main() {
     printf("Escolha um número para a segunda cidade (1-4): ");
     scanf("%d", &cidadeNum2);
 
-//Gerando o código da carta de forma automática e cadastradando segunda carta:
+//Gerando o código da carta de forma automática e cadastrando segunda carta:
     sprintf(codigo2, "%c%02d", estados[escolhaEstado2 - 1], cidadeNum2);
 
     printf("Digite a população da cidade: \n");
